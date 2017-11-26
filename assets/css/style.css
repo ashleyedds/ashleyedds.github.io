@@ -9,15 +9,12 @@ body {
     margin: 0;
 }
 
-.pagewrap {
-    min-height: 100%;
-    margin-bottom: -32px;
-}
-
 .pagewrap:after {
     content: "";
     display: block;
     height: 32px;
+    margin: 50px;
+    padding: 50px;
 }
 
 /* HEADER */
@@ -242,82 +239,49 @@ label {
     position: relative;
 }
 
-.portlabel1 {
+h4 {
     position: absolute;
     margin: auto;
-    top: 500px;
-    left: 0;
-    right: 350px;
-    bottom: 50px;
-    color:#e6e7e8;
-    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans serif";
+    color: #e6e7e8;
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "san serif";
     height: 30px;
     background-color: #81718D;
     padding: 25px;
     width: 200px;
     line-height: 5px;
+}
+
+.portlabel1 {
+    top: 500px;
+    left: 0;
+    right: 350px;
+    bottom: 50px;
 }
 
 .portlabel2 {
-    position: absolute;
-    margin: auto;
     top: 500px;
     left: 350px;
     right: 0;
     bottom: 50px;
-    color:#e6e7e8;
-    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans serif";
-    height: 30px;
-    background-color: #81718D;
-    padding: 25px;
-    width: 200px;
-    line-height: 5px;
 }
 
 .portlabel3 {
-    position: absolute;
-    margin: auto;
     top: 1000px;
     left: 0;
     right: 350px;
     bottom: 50px;
-    color:#e6e7e8;
-    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans serif";
-    height: 30px;
-    background-color: #81718D;
-    padding: 25px;
-    width: 200px;
-    line-height: 5px;
 }
 
 .portlabel4 {
-    position: absolute;
-    margin: auto;
     top: 1000px;
     left: 350px;
     right: 0;
     bottom: 50px;
-    color:#e6e7e8;
-    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans serif";
-    height: 30px;
-    background-color: #81718D;
-    padding: 25px;
-    width: 200px;
-    line-height: 5px;
 }
 
 .portlabel5 {
-    position: absolute;
-    margin: auto;
     top: 1500px;
     left: 0;
     right: 350px;
     bottom: 50px;
-    color:#e6e7e8;
-    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans serif";
-    height: 30px;
-    background-color: #81718D;
-    padding: 25px;
-    width: 200px;
-    line-height: 5px;
 }
