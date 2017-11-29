@@ -296,3 +296,7 @@ h4 {
     right: 350px;
     bottom: 50px;
 }
+
+h4:hover {
+    background-color: #623775;
+}
