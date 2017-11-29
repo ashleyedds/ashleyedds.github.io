@@ -20,31 +20,40 @@ body {
 /* HEADER */
 
 header {
-    position: relative;
-    font-size: 40px;
+    position: fixed;
+    top: 0;
     font-family: "Georgia", "Times", "Times New Roman", serif;
     color: #e6e7e8;
 	background-color: #81718D;
-	width: 100%;
-    padding: 60px 0;
+    width: 100%;
+    padding: 30px 0;
     border-bottom: 5px solid #5f5f5f;
-    cursor: text;
+    min-width: 400px;
+    z-index: 2;
+    margin-top: -29px;
 }
 
 h1 {
     float: left;
-    position: absolute;
-    bottom: 10px;
-    margin-left: 20px;
+    margin-left: 25%;
+    margin-bottom: -35px;
+    background-color: #5f5f5f;
+    padding: 40px;
+    font-size: 40px;
+}
+
+.portfolio {
+    margin-right: 22.5%;
+    margin-top: 50px;
 }
 
 .link a {
     float: right;
-    margin: 12px;
     margin-left: -10px;
     text-decoration: none;
     color: inherit;
     padding-right: 10px;
+    font-size: 25px;
 }
 
 .link a:hover {
@@ -61,10 +70,12 @@ h1 {
 .content {
     clear: both;
     max-width: 960px;
+    min-width: 960px;
     height: 700px;
     position: relative;
-    margin: auto;
-    margin-top: 50px;
+    margin-left: 25%;
+    margin-top: 175px;
+    /* z-index: -1; */
 }
 
 /* ABOUTME */
