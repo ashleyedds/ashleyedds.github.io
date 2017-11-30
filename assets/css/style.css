@@ -26,11 +26,10 @@ header {
     color: #e6e7e8;
 	background-color: #81718D;
     width: 100%;
-    padding: 30px 0;
+    height: 120px;
     border-bottom: 5px solid #5f5f5f;
     min-width: 400px;
     z-index: 2;
-    margin-top: -29px;
 }
 
 h1 {
@@ -42,21 +41,21 @@ h1 {
     font-size: 40px;
 }
 
-.portfolio {
-    margin-right: 22.5%;
-    margin-top: 50px;
+.nav {
+    clear: both;
+    float: right;
+    position: relative;
+    bottom: 35px;
+    right: 23%;
 }
 
-.link a {
-    float: right;
-    margin-left: -10px;
+.navlink {
     text-decoration: none;
     color: inherit;
-    padding-right: 10px;
     font-size: 25px;
 }
 
-.link a:hover {
+.nav a:hover {
     color: #623775;
 }
 
@@ -71,11 +70,11 @@ h1 {
     clear: both;
     max-width: 960px;
     min-width: 960px;
-    height: 700px;
+    height: 900px;
     position: relative;
     margin-left: 25%;
     margin-top: 175px;
-    /* z-index: -1; */
+    margin-bottom: 175px;
 }
 
 /* ABOUTME */
@@ -100,7 +99,6 @@ h2 {
 }
 
 .selfie {
-    clear: both;
     height: 200px;
     width: 200px;
     padding: 10px;
@@ -108,12 +106,15 @@ h2 {
 }
 
 p {
-   clear: both;
    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans serif";
    size: 20px;
    line-height: 25px;
    color: #e6e7e8; 
    padding: 10px;
+}
+
+.wrap {
+    clear: both;
 }
 
 /* CONNECT SIDEBAR */
@@ -214,89 +215,74 @@ label {
 }
 
 /* PORTFOLIO */
+
 .portimg1 {
     clear: both;
     float: left;
-    padding: 30px 50px;
+    position: relative;
 }
 
 .portimg2 {
+    position: relative;
     float: right;
-    padding: 30px 50px;
 }
 
 .portimg3 {
     clear: both;
     float: left;
-    padding: 30px 50px;
+    position: relative;
 }
 
 .portimg4 {
+    position: relative;
     float: right;
-    padding: 30px 50px;
 }
 
 .portimg5 {
     clear: both;
-    float: left;
-    padding: 30px 50px;
-}
-
-.wrap {
-    width: 100%;
-    height: auto;
-    margin: auto;
-    text-align: center;
     position: relative;
+    float: left;
 }
 
-h4 {
+.portimgs {
+    padding: 30px 60px;
+}
+
+.portlabel {
     position: absolute;
-    margin: auto;
+    background-color: #81718D;
+    padding: 15px;
+    text-align: center;
     color: #e6e7e8;
     font-family: "Arial", "Helvetica Neue", "Helvetica", "san serif";
-    height: 30px;
-    background-color: #81718D;
-    padding: 25px;
     width: 200px;
-    line-height: 5px;
 }
 
-.portlabel1 {
-    top: 500px;
-    left: 0;
-    right: 350px;
-    bottom: 50px;
-}
-
-.portlabel2 {
-    top: 500px;
-    left: 350px;
-    right: 0;
-    bottom: 50px;
-}
-
-.portlabel3 {
-    top: 1000px;
-    left: 0;
-    right: 350px;
-    bottom: 50px;
-}
-
-.portlabel4 {
-    top: 1000px;
-    left: 350px;
-    right: 0;
-    bottom: 50px;
-}
-
-.portlabel5 {
-    top: 1500px;
-    left: 0;
-    right: 350px;
-    bottom: 50px;
-}
-
-h4:hover {
+.portlabel:hover {
     background-color: #623775;
+}
+
+.label1 {
+    bottom: 25%;
+    left: 19%;
+}
+
+.label2 {
+    bottom: 25%;
+    right: 18.75%;
+}
+
+.label3 {
+    bottom: 25%;
+    left: 19%;
+}
+
+.label4 {
+    bottom: 25%;
+    right: 18.75%;
+}
+
+.label5 {
+    bottom: 25%;
+    left: 19%;
 }
