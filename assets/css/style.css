@@ -87,7 +87,7 @@ body {
     float: right;
     position: relative;
     top: 235px;
-    right: 8%;
+    right: 7%;
     opacity: 0;
 
     -webkit-animation: fadein 3s;
