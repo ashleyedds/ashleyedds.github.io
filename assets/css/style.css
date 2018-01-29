@@ -49,7 +49,7 @@ body {
     float: right;
     position: relative;
     top: 235px;
-    right: 36%;
+    right: 25%;
 
     -webkit-animation: fadein 3s;
     -moz-animation: fadein 3s;
@@ -87,6 +87,7 @@ body {
     float: right;
     position: relative;
     top: 235px;
+    right: 8%;
     opacity: 0;
 
     -webkit-animation: fadein 3s;
