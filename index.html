@@ -2,147 +2,213 @@
 <html>
 
 <head>
+
+    <meta charset="UTF-8">
+
     <title>Ashley Edds</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Source+Sans+Pro" rel="stylesheet">
+
 </head>
 
 <body>
+    <div class="navbar-fixed">
+        <nav class="z-depth-0">
+            <div class="nav-wrapper">
+                <a href="#" id="logo" class="brand-logo">
+                    AE
+                </a>
 
-    <div class="container">
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">AE</a>
-                </div>
-
-                <ul class="nav navbar-nav navbar-right">
+                <a href="#" data-activates="mobile-demo" class="button-collapse">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
                     <li>
-                        <a href="#">About Me</a>
-                        <a href="#">My Life Before Code</a>
-                        <a href="#">Portfolio</a>
-                        <a href="#">Contact</a>
+                        <a id="aboutMe" href="#">About Me</a>
                     </li>
+                    <li>
+                        <a id="lifeBefore" href="#">Life Before Code</a>
+                    </li>
+                    <li>
+                        <a id="portfolio" href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a id="contact" href="#">Contact</a>
+                    </li>
+                </ul>
+
+                <ul class="side-nav" id="mobile-demo">
+                    <li>
+                        <a id="aboutMeMobile" href="#">About Me</a>
+                    </li>
+                    <li>
+                        <a id="lifeBeforeMobile" href="#">Life Before Code</a>
+                    </li>
+                    <li>
+                        <a id="portfolioMobile" href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a id="contactMobile" href="#">Contact</a>
+                    </li>
+
                 </ul>
             </div>
         </nav>
     </div>
 
-    <div class="container-full-big">
-        <div class="jumbotron">
-            <h1 class="hi">Hi.</h1><h1 class="me">I'm Ashley.</h1>
-        </div>
-    </div>
-
-    <div class="container-fluid">
-    <div class="aboutSection">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2 class="sectionOne">About Me</h2>
-                <div class="aboutMe">
-                    <p>Driven and a sponge for new learning, I love projects, no matter their form. More recently, my projects have been focused on perfecting the perfect cheesy grits in my pressure cooker and planning my upcoming trip to Japan in the fall of 2018.</p>
-                    <p>I am seeking a front-end focused web development position, and I have a substantial interest in UX/UI. As a lover of projects, I fancy creating a product from the ground up. I am a planner by nature--I have experience working with agile and I log in to my Trello account daily. I'm looking for a work corhort that is collaborative and places an emphasis on direct communication (words are what keep us connected!).</p>
-                    <p>In my free time, I enjoy cooking, reading(particularly historical fiction), and spending time with my friends. I have been married to Matt for 3 years and we have two adorably troublesome cats, Charlie and Valentine. Matt is my trusty travel companion and we're currently obsessed with marking as many places as "visited" on a huge map we have hanging in our hall. In 2017 we visited five Eurpean countries, Cape Cod, and southern California.</p>
-                    <p><b>Current Netflix obsessions:</b> The Office (I'm a first-timer!) and The Good Place.</p> 
-                    <p><b>Favorite book:</b> 'The 21 Balloons' by William Pène du Bois.</p>
-                    <p><b>Favorite libation:</b> Depends on my mood. If I'm drinking beer, the hazier IPA, the better. If I'm drinking wine, a good jammy red. If cocktails, French 75.</p>
-                    <p><b>Dish I'm most proud of:</b> My all-day bolognese!</p>
-
+    <div class="row">
+        <div class="col s12">
+            <div class="card main-image">
+                <div class="card-image">
+                    <img src="assets/images/sunset.jpg">
+                    <span class="card-title">Hi. I'm Ashley.</span>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="row">
-            <div class="imageSection">
-                <div class="col-xs-2">
-                    <img class="selfieAmsterdam" src="assets/images/amsterdam.jpg">
+    <div class="container">
+        <div class="section about-me">
+            <div class="row about-row">
+                <div class="col s12">
+                    <h2 class="about-title">About Me</h2>
+                    <p class="content about-content">Driven and a sponge for new learning, I love projects, no matter their form. More recently, my projects
+                        have been focused on perfecting the perfect cheesy grits in my pressure cooker and planning my upcoming
+                        trip to Japan in the fall of 2018.</p>
+                    <p class="content about-content">I am seeking a front-end focused web development position, and I have a substantial interest in UX/UI.
+                        As a lover of projects, I fancy creating a product from the ground up. I am a planner by nature--I
+                        have experience working with agile and I log in to my Trello account daily. I'm looking for a work
+                        corhort that is collaborative and places an emphasis on direct communication (words are what keep
+                        us connected!).</p>
+                    <p class="content about-content">In my free time, I enjoy cooking, reading(particularly historical fiction), and spending time with my
+                        friends. I have been married to Matt for 3 years and we have two adorably troublesome cats, Charlie
+                        and Valentine. Matt is my trusty travel companion and we're currently obsessed with marking as many
+                        places as "visited" on a huge map we have hanging in our hall. In 2017 we visited five Eurpean countries,
+                        Cape Cod, and southern California.</p>
+                    <p class="content about-content">
+                        <b>Current Netflix obsessions:</b> The Office (I'm a first-timer!) and The Good Place.</p>
+                    <p class="content about-content">
+                        <b>Favorite book:</b> 'The 21 Balloons' by William Pène du Bois.</p>
+                    <p class="content about-content">
+                        <b>Favorite libation:</b> Depends on my mood. If I'm drinking beer, the hazier IPA, the better. If I'm
+                        drinking wine, a good jammy red. If cocktails, French 75.</p>
+                    <p class="content about-content">
+                        <b>Dish I'm most proud of:</b> My all-day bolognese!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s2">
+                    <img class="about-img" src="assets/images/amsterdam.jpg">
                     <div class="overlayAmsterdam">
-                            <span>Amsterdam</span>
-                        </div>
+                        <span class="about-blurb">Amsterdam</span>
+                    </div>
                 </div>
-                <div class="col-xs-2">
-                    <img class="selfieCharlie" src="assets/images/charlie.jpg">
+                <div class="col s2">
+                    <img class="about-img" src="assets/images/charlie.jpg">
                     <div class="overlayCharlie">
-                            <span>Charlie the Cat</span>
-                        </div>
+                        <span class="about-blurb">Charlie</span>
+                    </div>
                 </div>
-                <div class="col-xs-2">
-                    <img class="selfieRome" src="assets/images/rome.jpg">
+                <div class="col s2">
+                    <img class="about-img" src="assets/images/rome.jpg">
                     <div class="overlayRome">
-                        <span>Rome</span>
+                        <span class="about-blurb">Rome</span>
                     </div>
                 </div>
-                <div class="col-xs-2">
-                    <img class="selfieVal" src="assets/images/valentine.JPG">
-                    <div class="overlayVal">
-                        <span>An incoming Valentine boop</span>
+                <div class="col s2">
+                    <img class="about-img" src="assets/images/valentine.jpg">
+                    <div class="overlayValentine">
+                        <span class="about-blurb">An incoming Valentine boop</span>
                     </div>
                 </div>
-                <div class="col-xs-2">
-                    <img class="selfieFrance" src="assets/images/france.jpg">
-                    <div class="overlayFrance">
-                        <span>Paris</span>
+                <div class="col s2">
+                    <img class="about-img" src="assets/images/france.jpg">
+                    <div class="overlayParis">
+                        <span class="about-blurb">Paris</span>
                     </div>
                 </div>
-                <div class="col-xs-2">
-                    <img class="selfieUNC" src="assets/images/friends.jpg">
+                <div class="col s2">
+                    <img class="about-img" src="assets/images/friends.jpg">
                     <div class="overlayUNC">
-                        <span>Let's Go Heels!</span>
+                        <span class="about-blurb">Let's Go Heels!</span>
                     </div>
                 </div>
             </div>
         </div>
 
-    <div class="lifeBefore">
-        <div class="row">
-            <div class="col-xs-6">
-                <h2 class="sectionTwo">My Life Before Code</h2>
-                <div class="speech">
-                    <p>Before I found code, my day job was as a speech-language pathologist. I've worked mostly in hospitals with acutely ill adult patients in an inpatient setting. I completed a fellowship year at Rex Hospital in Raleigh and spent 3+ years after working at Duke University Hospital.</p>
-                    <p>I spent most of my time working with patients on the cardiothroracic surgical ICU and step-down units and my favorite population to work with were those that just received a lung transplant. My primary responsibilites included helping those with tracheostomies learn to talk again and patients who had difficulty eating and drinking safely. You can imagine, it's important to keep food and drink out of newly transplanted lungs, and after such an extensive procedure, swallowing is often an issue.</p>
-                    <p>In the first picture to the right, you can see my first expereince scoping (my very brave supervisor)! We use fiberoptic scopes to asses vocal cord mobility and swallowing. In the second picture, you can see my coworker and me presenting a poster at the 2017 national conference in LA. We completed a performance improvement project at Duke for assessing patients' ability to safely swallow pills.</p>
+        <div class="section before-code">
+            <div class="row before-row">
+                <div class="col l6 s12">
+                    <h2 class="before-title">My Life Before Code</h2>
+                    <p class="content before-content">Before I found code, my day job was as a speech-language pathologist. I've worked mostly in hospitals
+                        with acutely ill adult patients in an inpatient setting. I completed a fellowship year at Rex Hospital
+                        in Raleigh and spent 3+ years after working at Duke University Hospital.
+                        <br> I spent most of my time working with patients on the cardiothroracic surgical ICU and step-down
+                        units and my favorite population to work with were those that just received a lung transplant. My
+                        primary responsibilites included helping those with tracheostomies learn to talk again and patients
+                        who had difficulty eating and drinking safely. You can imagine, it's important to keep food and drink
+                        out of newly transplanted lungs, and after such an extensive procedure, swallowing is often an issue.</p>
+                </div>
+                <div class="col l3 s6">
+                    <div class="card before-card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/scope.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Fiberoptic Scoping
+                                <i class="material-icons right">more_vert</i>
+                            </span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Fiberoptic Scoping
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p class="before-blurb">My first expereince scoping (my very brave supervisor)! One of the assessments SLP's utilize
+                                is a FEES, or Fiberoptic Endoscopic Evaluation of Swallowing. We run a small scope attached
+                                to a camera and a light source along the base of the nose and just down the back of the throat
+                                to visualize the entry to the airway while patients swallow food and liquid.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l3 s6">
+                    <div class="card before-card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/poster.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Poster Presentation
+                                <i class="material-icons right">more_vert</i>
+                            </span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Poster Presentation
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p class="before-blurb">My coworker and me presenting a poster at the 2017 national conference in LA. We completed a
+                                performance improvement project at Duke for assessing patients' ability to safely swallow
+                                pills utilizing dextrose-filled capsules (sugar pills!) using FEES.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="speechImgs">
-            <div class="col-xs-3">
-                <img class="scope" src="assets/images/scope.jpg">
-            </div>
-            <div class="col-xs-3">
-                <img class="poster" src="assets/images/poster.JPG">
-            </div>
-        </div>
         </div>
     </div>
 
-    <div class="portfolioSection">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2 class="sectionThree">Portfolio</h2>
-                <div class="portfolio">
-                    <p>Portfolio stuff goes here</p>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="contactSection">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2 class="sectionFour">Connect With Me</h2>
-                <div class="contact">
-                    <p>Contact stuff goes here</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="assets/javascript/javascript.js"></script>
+
 </body>
 
 </html>
