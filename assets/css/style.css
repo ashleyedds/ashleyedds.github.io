@@ -61,6 +61,16 @@ nav ul a {
     font-size: 50px;
 }
 
+.btn-floating.btn-large {
+    position: relative;
+    top: -135px;
+    left: 1000px;
+}
+
+.btn-floating.btn-large i {
+    color: #443e41;
+}
+
 /* GENERAL SECTION STYLING */
 .section {
     padding-top: 0;
