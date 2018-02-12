@@ -64,7 +64,7 @@ nav ul a {
 .btn-floating.btn-large {
     position: relative;
     top: -135px;
-    left: 1000px;
+    left: 850px;
 }
 
 .btn-floating.btn-large i {
@@ -149,7 +149,7 @@ nav ul a {
     background-color: #e4dfc1;
 }
 
-.card .card-reveal {
+.card .before-reveal {
     background-color: #e4dfc1;
 }
 
@@ -172,6 +172,42 @@ nav ul a {
 .before-content {
     background-color: rgba(239,221,171,0.3);
     padding-bottom: 150px;
+}
+
+/* CAROUSEL */
+.carousel .carousel-item {
+    width: 500px;
+    height: 400px;
+}
+
+.carousel {
+    height: 550px;
+}
+
+.portfolio-title {
+    background-color: #f4d59a;
+      font-size: 20px;
+      padding: 20px 20px 20px 5px;
+      font-family: 'Lobster Two', cursive;
+      color: #ffffff;
+      font-size: 25px; 
+      letter-spacing: 0.1em;
+      text-align: center;
+}
+
+.portfolio-card {
+    background-color: #f4d59a;
+}
+
+.card .portfolio-reveal {
+    background-color: #f4d59a;
+}
+
+.portfolio-blurb {
+    padding-top: 10px;
+    letter-spacing: 0.1em;
+    line-height: 1.3em;
+    color: #1c1c1d;
 }
 
  
