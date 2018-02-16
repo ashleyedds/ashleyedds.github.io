@@ -7,14 +7,14 @@
 
 body {
     background-image: url("img/symphony.png");
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* NAVBAR */
 
 #logo {
-    font-family: 'Lobster Two', cursive;
-    font-size: 30px;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 40px;
     color: #ffffff;
     padding-left: 3%;
     padding-top: 15px;
@@ -24,6 +24,10 @@ body {
     padding: 0;
 }
 
+nav {
+    background: transparent;
+    transition: background 1s;
+}
 
 nav ul a {
     font-size: 20px;
@@ -57,14 +61,14 @@ nav ul a {
 .card .card-image .card-title {
     top: 25%;
     left: 70%;
-    font-family: 'Lobster Two', cursive;
-    font-size: 50px;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 75px;
 }
 
 .btn-floating.btn-large {
     position: relative;
     top: -135px;
-    left: 850px;
+    left: 950px;
 }
 
 .btn-floating.btn-large i {
@@ -90,9 +94,9 @@ nav ul a {
 /* ABOUT SECTION */
 .about-title {
     background-color: #9daab4;
-    font-size: 30px;
+    font-size: 50px;
     padding: 15px;
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Grand Hotel', cursive;
     color: #fff;
 }
 
@@ -125,9 +129,11 @@ nav ul a {
     top: 0;
     opacity: 0;
     width: 100%;
+    transition: background-color 1s, opacity 1s;
+    /* transition: opacity 1s; */
     color: #fff;
     text-align: center;
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Grand Hotel', cursive;
     font-size: 2vw;
     letter-spacing: .1em;
     text-shadow:
@@ -157,9 +163,9 @@ nav ul a {
     background-color: #e4dfc1;
       font-size: 20px;
       padding: 20px 20px 20px 5px;
-      font-family: 'Lobster Two', cursive;
+      font-family: 'Grand Hotel', cursive;
       color: #ffffff;
-      font-size: 25px; 
+      font-size: 50px; 
       letter-spacing: 0.1em;
 }
 
@@ -188,9 +194,9 @@ nav ul a {
     background-color: #f4d59a;
       font-size: 20px;
       padding: 20px 20px 20px 5px;
-      font-family: 'Lobster Two', cursive;
+      font-family: 'Grand Hotel', cursive;
       color: #ffffff;
-      font-size: 25px; 
+      font-size: 50px; 
       letter-spacing: 0.1em;
       text-align: center;
 }
