@@ -58,17 +58,27 @@ nav ul a {
     padding: 0;
 }
 
+/* .row {
+    margin-bottom: 0;
+    max-height: 100vh;
+} */
+
 .card .card-image .card-title {
     top: 25%;
     left: 70%;
     font-family: 'Grand Hotel', cursive;
     font-size: 75px;
+    text-shadow:
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000;
 }
 
 .btn-floating.btn-large {
     position: relative;
     top: -135px;
-    left: 950px;
+    left: 930px;
 }
 
 .btn-floating.btn-large i {
@@ -98,6 +108,11 @@ nav ul a {
     padding: 15px;
     font-family: 'Grand Hotel', cursive;
     color: #fff;
+    text-shadow:
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000;
 }
 
 .about-content {
@@ -130,7 +145,6 @@ nav ul a {
     opacity: 0;
     width: 100%;
     transition: background-color 1s, opacity 1s;
-    /* transition: opacity 1s; */
     color: #fff;
     text-align: center;
     font-family: 'Grand Hotel', cursive;
@@ -167,6 +181,11 @@ nav ul a {
       color: #ffffff;
       font-size: 50px; 
       letter-spacing: 0.1em;
+      text-shadow:
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000;
 }
 
 .before-blurb {
@@ -199,6 +218,11 @@ nav ul a {
       font-size: 50px; 
       letter-spacing: 0.1em;
       text-align: center;
+      text-shadow:
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000;
 }
 
 .portfolio-card {
@@ -214,6 +238,67 @@ nav ul a {
     letter-spacing: 0.1em;
     line-height: 1.3em;
     color: #1c1c1d;
+}
+
+/* CONTACT SECTION */
+.email-title {
+    background-color: #fdb992;
+    font-size: 50px;
+    padding: 15px;
+    font-family: 'Grand Hotel', cursive;
+    color: #fff;
+    text-shadow:
+    -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000;
+    margin-right: 5px;
+}
+
+.container .row {
+    margin: 0 5px 0 0;
+}
+
+.email-content{
+    background-color:rgba(253,191,146,0.3);
+    margin-left: 10%;
+    padding: 10px;
+    margin-right: 10%;
+}
+
+input {
+    margin-left: 35%;
+}
+
+.contact-image {
+    width: 50%;
+    padding: 30px;
+    margin-left: 10%;
+    padding: 5%;
+}
+
+.contact-image-row {
+    background-color:rgba(253,191,146,0.3);
+}
+
+.submit-button {
+    background-color: #fdb992;
+    margin-left: 7%;
+    margin-bottom: 3%;
+}
+
+.submit-button:hover {
+    background-color: #fdab74;
+}
+
+/* FOOTER */
+.page-footer {
+    background-color: #fdab74;
+    margin-top: 50px;
+    font-family: 'Grand Hotel', cursive;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
 }
 
  
