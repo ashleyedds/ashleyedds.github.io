@@ -30,31 +30,31 @@
                 </a>
                 <ul class="right hide-on-med-and-down">
                     <li>
-                        <a href="#aboutMe">About Me</a>
+                        <a href="#abtMe">About Me</a>
                     </li>
                     <li>
-                        <a id="lifeBefore" href="#">Life Before Code</a>
+                        <a id="lifeBefore" href="#beforeCode">Life Before Code</a>
                     </li>
                     <li>
-                        <a id="portfolio" href="#">Portfolio</a>
+                        <a id="portfolio" href="#portfolioPage">Portfolio</a>
                     </li>
                     <li>
-                        <a id="contact" href="#">Contact</a>
+                        <a id="contact" href="#connectWith">Contact</a>
                     </li>
                 </ul>
 
                 <ul class="side-nav" id="mobile-demo">
                     <li>
-                        <a id="aboutMeMobile" href="#aboutMe">About Me</a>
+                        <a id="aboutMeMobile" href="#abtMe">About Me</a>
                     </li>
                     <li>
-                        <a id="lifeBeforeMobile" href="#">Life Before Code</a>
+                        <a id="lifeBeforeMobile" href="#beforeCode">Life Before Code</a>
                     </li>
                     <li>
-                        <a id="portfolioMobile" href="#">Portfolio</a>
+                        <a id="portfolioMobile" href="#portfolioPage">Portfolio</a>
                     </li>
                     <li>
-                        <a id="contactMobile" href="#">Contact</a>
+                        <a id="contactMobile" href="#connectWith">Contact</a>
                     </li>
 
                 </ul>
@@ -68,13 +68,17 @@
                 <div class="card-image">
                     <img src="assets/images/sunset.jpg">
                     <span class="card-title">Hi. I'm Ashley.</span>
+                    <span>
+                        <a class="btn-floating btn-large pulse waves-effect waves-light white">
+                            <i class="material-icons">arrow_downward</i>
+                        </a>
+                    </span>
                 </div>
             </div>
         </div>
-        <a class="btn-floating btn-large pulse waves-effect waves-light white">
-            <i class="material-icons">arrow_downward</i>
-        </a>
+        <div id="abtMe"></div>
     </div>
+
 
     <div class="container">
         <div class="section about-me" id="aboutMe">
@@ -136,6 +140,7 @@
                         <span class="about-blurb">Paris</span>
                     </div>
                 </div>
+                <div id="beforeCode"></div>
                 <div class="col s2">
                     <img class="about-img" src="assets/images/friends.jpg">
                     <div class="overlayUNC">
@@ -180,6 +185,7 @@
                     </div>
                 </div>
 
+
                 <div class="col l3 s6">
                     <div class="card before-card">
                         <div class="card-image waves-effect waves-block waves-light">
@@ -201,89 +207,76 @@
                     </div>
                 </div>
             </div>
+            <div id="portfolioPage"></div>
         </div>
+
 
         <div class="section portfolio-carousel">
             <div class="row portfolio-row">
                 <div class="col s12">
                     <h2 class="portfolio-title">Portfolio</h2>
+                    <p class="content flow-text portfolio-content-header">Technical Skills:</p>
+                    <p class="content flow-text portfolio-content-body">HTML5 | CSS3 | Bootstrap | Media Queries | Materialize | JavaScript | jQuery | GIT | Github | Google
+                        Firebase | Node.js | APIs | JSON | Command Line/GitBash | MySQL | Express.js | Handlebars</p>
                     <div class="carousel">
-                        <a class="carousel-item" href="#one!">
+                        <a class="carousel-item" href="https://ashleyedds.github.io/Hangman-Game/" target="_blank">
                             <div class="card portfolio-card">
                                 <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="activator" src="assets/images/hangman.JPG">
+                                    <img class="responsive-img" src="assets/images/hangman.JPG">
                                 </div>
                                 <div class="card-content">
-                                    <span class="card-title activator grey-text text-darken-4">Hangman: ACC Hoops Edition
-                                        <i class="material-icons right">more_vert</i>
+                                    <h2 class="portfolio-content-title">Hangman: ACC Hoops Edition</h2>
+                                    <span class="card-title activator grey-text text-darken-4">(Vanilla JS)
                                     </span>
-                                </div>
-                                <div class="card-reveal portfolio-reveal">
-                                    <span class="card-title grey-text text-darken-4">Hangman: ACC Hoops Edition
-                                        <i class="material-icons right">close</i>
-                                    </span>
-                                    <p class="portfolio-blurb">Hangman game using vanilla JS.</p>
                                 </div>
                             </div>
                         </a>
-                        <a class="carousel-item" href="#two!">
+                        <a class="carousel-item" href="#https://ashleyedds.github.io/LocalScoop/" target="_blank">
                             <div class="card portfolio-card">
                                 <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="activator" src="assets/images/scoop.JPG">
+                                    <img class="responsive-img" src="assets/images/scoop.JPG">
                                 </div>
                                 <div class="card-content">
-                                    <span class="card-title activator grey-text text-darken-4">LocalScoop
-                                        <i class="material-icons right">more_vert</i>
+                                    <h2 class="portfolio-content-title">LocalScoop</h2>
+                                    <span class="card-title activator grey-text text-darken-4">(Google Maps Geolocation API, News API, Open Weater Map API, Zomato API, jQuery, Firebase,
+                                        Materialize)
                                     </span>
-                                </div>
-                                <div class="card-reveal portfolio-reveal">
-                                    <span class="card-title grey-text text-darken-4">LocalScoop
-                                        <i class="material-icons right">close</i>
-                                    </span>
-                                    <p class="portfolio-blurb">A group effot, LocalScoop is a location-based news app that provides current news based
-                                        off your current location and, because who doesn't like to enjoy a tasty treat while
-                                        consuming their media, a top-rated nearby ice cream parlor. Move the Google Maps
-                                        marker and keep up to date with news in other locations. If you create an account,
-                                        you can save your favorites and access them anytime with a simple click! Utilizes
-                                        Google Maps API Geolocation, News API, Open Weater Map API, and Zomato API.</p>
                                 </div>
                             </div>
                         </a>
-                        <a class="carousel-item" href="#three!">
+                        <a class="carousel-item" href="#https://ashleyedds.github.io/TriviaGame/">
                             <div class="card portfolio-card">
                                 <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="activator" src="assets/images/trivia.JPG">
+                                    <img class="responsive-img" src="assets/images/trivia.JPG">
                                 </div>
                                 <div class="card-content">
-                                    <span class="card-title activator grey-text text-darken-4">Harry Potter Trivia Game
-                                        <i class="material-icons right">more_vert</i>
+                                    <h2 class="portfolio-content-title">Harry Potter and the Really Cool Trivia Game</h2>
+                                    <span class="card-title activator grey-text text-darken-4">(jQuery)
                                     </span>
-                                </div>
-                                <div class="card-reveal portfolio-reveal">
-                                    <span class="card-title grey-text text-darken-4">Harry Potter Trivia Game
-                                        <i class="material-icons right">close</i>
-                                    </span>
-                                    <p class="portfolio-blurb">Test your Harry Potter knowledge with this trivia game,made using jQuery.</p>
                                 </div>
                             </div>
                         </a>
-                        <a class="carousel-item" href="#four!">
+                        <a class="carousel-item" href="https://ashleyedds.github.io/GIFGenerator/">
                             <div class="card portfolio-card">
                                 <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="activator" src="assets/images/gifgenerator.JPG">
+                                    <img class="responsive-img" src="assets/images/gifgenerator.JPG">
                                 </div>
                                 <div class="card-content">
-                                    <span class="card-title activator grey-text text-darken-4">GIF Generator
-                                        <i class="material-icons right">more_vert</i>
+                                    <h2 class="portfolio-content-title">GIF Generator</h2>
+                                    <span class="card-title activator grey-text text-darken-4">(GIPHY API, jquery)
                                     </span>
                                 </div>
-                                <div class="card-reveal portfolio-reveal">
-                                    <span class="card-title grey-text text-darken-4">GIF Generator
-                                        <i class="material-icons right">close</i>
+                            </div>
+                        </a>
+                        <a class="carousel-item" href="https://guarded-ridge-21146.herokuapp.com/">
+                            <div class="card portfolio-card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="responsive-img" src="assets/images/friendfinder.JPG">
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="portfolio-content-title">FriendFinder</h2>
+                                    <span class="card-title activator grey-text text-darken-4">(jQuery, node.JS, Express)
                                     </span>
-                                    <p class="portfolio-blurb">This GIF generator will help you find the perfect reaction to send to your friends. Powered
-                                        by the GIPHY API, reaction buttons are created dynamically using jQuery. Click a
-                                        GIF to watch it play, click it again to pause.</p>
                                 </div>
                             </div>
                         </a>
@@ -292,37 +285,34 @@
             </div>
         </div>
 
-        <div class="section connect-with-me">
+        <div class="section connect-with-me" id="connectWith">
             <div class="row">
                 <form class="col s8">
-                        <h2 class="email-title">Shoot Me a Message</h2>
+                    <h2 class="email-title">Shoot Me a Message</h2>
                     <div class="row email-content">
-                        <div class="input-field col s4">
-                                <i class="material-icons prefix">face</i>
-                           <input placeholder="First Name" type="text" class="validate">
-                        </div>
-                        <div class="input-field col s4">
-                            <input placeholder="Last Name" type="text" class="validate">
+                        <div class="input-field col s8">
+                            <i class="material-icons prefix">face</i>
+                            <input placeholder="What's your name?" type="text" class="validate">
                         </div>
                     </div>
                     <div class="row email-content">
                         <div class="input-field col s8">
-                                <i class="material-icons prefix">email</i>
+                            <i class="material-icons prefix">email</i>
                             <input placeholder="Email Address" type="text" class="validate">
                         </div>
                     </div>
                     <div class="row email-content">
                         <div class="input-field col s8">
-                                <i class="material-icons prefix">mode_edit</i>
+                            <i class="material-icons prefix">mode_edit</i>
                             <textarea id="textarea" class="materialize-textarea"></textarea>
                             <label for="textarea">Message</label>
                         </div>
                     </div>
                     <div class="row email-content">
                         <div class="col s8">
-                                <button class="btn submit-button waves-effect waves-light" type="submit" name="action">Submit
-                                        <i class="material-icons right">send</i>
-                                      </button>
+                            <button class="btn submit-button waves-effect waves-light" type="submit" name="action">Submit
+                                <i class="material-icons right">send</i>
+                            </button>
                         </div>
                     </div>
                 </form>
@@ -330,13 +320,23 @@
                 <div class="col s4">
                     <h2 class="email-title">Connect With Me</h2>
                     <div class="row contact-image-row">
-                        <div class="col s6">
-                            <img class="contact-image" src="assets/images/github.png">
+                        <div class="col s4">
+                            <a href="https://github.com/ashleyedds" target="_blank">
+                                <img class="contact-image" src="assets/images/github.png">
+                            </a>
                         </div>
 
-                        <div class="col s6">
+                        <div class="col s4">
+                            <a href="https://www.linkedin.com/in/ashley-edds/" target="_blank">
                                 <img class="contact-image" src="assets/images/linkedin.png">
-                            </div>
+                            </a>
+                        </div>
+
+                        <div class="col s4">
+                            <a href="assets/images/Resume.pdf" download>
+                                <img class="contact-image" src="assets/images/resume.png">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -344,12 +344,12 @@
     </div>
 
     <footer class="page-footer">
-            <div class="footer-copyright">
-                    <div class="container">
-                    © 2018 Ashley Edds
-                    </div>
-                  </div>
-                </footer>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2018 Ashley Edds
+            </div>
+        </div>
+    </footer>
     </footer>
 
 

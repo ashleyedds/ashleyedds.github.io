@@ -58,10 +58,6 @@ nav ul a {
     padding: 0;
 }
 
-/* .row {
-    margin-bottom: 0;
-    max-height: 100vh;
-} */
 
 .card .card-image .card-title {
     top: 25%;
@@ -75,10 +71,10 @@ nav ul a {
     0.5px 0.5px 0 #000;
 }
 
-.btn-floating.btn-large {
-    position: relative;
-    top: -135px;
-    left: 930px;
+.btn-floating.btn-large{
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
 }
 
 .btn-floating.btn-large i {
@@ -199,7 +195,26 @@ nav ul a {
     padding-bottom: 150px;
 }
 
-/* CAROUSEL */
+/* CAROUSEL/Portfolio */
+.portfolio-content-header, .portfolio-content-body {
+    background-color: rgba(253,191,146,0.3);
+}
+
+.portfolio-content-header {
+    font-family: 'Grand Hotel', cursive; 
+    font-size: 30px;
+}
+
+.portfolio-content-title {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 30px;
+    color: black; 
+}
+
+/* .portfolio-content-body {
+    text-align: center;
+} */
+
 .carousel .carousel-item {
     width: 500px;
     height: 400px;
