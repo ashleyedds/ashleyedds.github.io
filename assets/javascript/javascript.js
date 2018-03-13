@@ -1,6 +1,14 @@
 
 $(document).ready(function () {
+    $(".button-collapse").sideNav();
+    
     $("nav").css("background", "transparent");
+    $('.collapsible').collapsible();
+
+    $('.carousel').carousel();
+
+    $('#textarea1').val('');
+    $('#textarea1').trigger('autoresize');
 });
 
 $(window).scroll(function () {
@@ -9,12 +17,5 @@ $(window).scroll(function () {
     } else {
         $("nav").css("background", "transparent");
     }
-
-    $(".button-collapse").sideNav();
-
-    $('.carousel').carousel();
-
-    $('#textarea1').val('');
-    $('#textarea1').trigger('autoresize');
 
 });
