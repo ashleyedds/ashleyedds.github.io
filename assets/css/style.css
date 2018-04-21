@@ -196,24 +196,18 @@ nav ul a {
 }
 
 /* CAROUSEL/Portfolio */
-.portfolio-content-header, .portfolio-content-body {
+.portfolio-content-header, .portfolio-content-body, .mern-row {
     background-color: rgba(253,191,146,0.3);
 }
 
 .portfolio-content-header {
-    font-family: 'Grand Hotel', cursive; 
     font-size: 30px;
 }
 
 .portfolio-content-title {
-    font-family: 'Grand Hotel', cursive;
     font-size: 30px;
     color: black; 
 }
-
-/* .portfolio-content-body {
-    text-align: center;
-} */
 
 .carousel .carousel-item {
     width: 500px;
