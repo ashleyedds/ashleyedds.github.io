@@ -200,6 +200,10 @@ nav ul a {
     background-color: rgba(253,191,146,0.3);
 }
 
+.mern-img {
+    width: 10%;
+}
+
 .portfolio-content-header {
     font-size: 30px;
 }
